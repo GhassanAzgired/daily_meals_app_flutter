@@ -41,7 +41,7 @@ class _FiltersPageState extends State<FiltersPage> {
   ) {
     return ListTile(
       title: SwitchListTile(
-        activeColor: Theme.of(context).colorScheme.secondaryVariant,
+        activeColor: Theme.of(context).colorScheme.secondaryContainer,
         title: Text(title),
         subtitle: Text(subtitle),
         onChanged: changeValueFunction as void Function(bool)?,

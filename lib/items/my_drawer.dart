@@ -24,7 +24,7 @@ class MyDrawer extends StatelessWidget {
             fontSize: 24,
             fontFamily: 'Robotocondensed',
             fontWeight: FontWeight.bold,
-            color: Theme.of(context).colorScheme.secondaryVariant,
+            color: Theme.of(context).colorScheme.secondaryContainer,
           ),
         ),
         onTap: () {

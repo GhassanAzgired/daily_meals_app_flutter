@@ -96,9 +96,8 @@ class MealDetailsPage extends StatelessWidget {
                       horizontal: 20,
                     ),
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(15),
-                      color: Theme.of(context).colorScheme.primaryVariant,
-                    ),
+                        borderRadius: BorderRadius.circular(15),
+                        color: Theme.of(context).colorScheme.primaryContainer),
                     child: Text(
                       selectedMeals.ingredients[index],
                       textAlign: TextAlign.center,
@@ -128,7 +127,7 @@ class MealDetailsPage extends StatelessWidget {
                         ),
                         leading: CircleAvatar(
                           backgroundColor:
-                              Theme.of(context).colorScheme.secondaryVariant,
+                              Theme.of(context).colorScheme.secondaryContainer,
                           child: Text(
                             '${index + 1}',
                             style: const TextStyle(

@@ -86,9 +86,9 @@ class _MyAppState extends State<MyApp> {
         ),
         colorScheme: const ColorScheme.light().copyWith(
           primary: const Color(0xffBF4342),
-          primaryVariant: const Color(0xff8C1C13),
+          primaryContainer: const Color(0xff8C1C13),
           secondary: const Color(0xffA78A7F),
-          secondaryVariant: const Color(0xff735751),
+          secondaryContainer: const Color(0xff735751),
         ),
         canvasColor: const Color(0xffEEE3D3),
         fontFamily: 'Raleway',
